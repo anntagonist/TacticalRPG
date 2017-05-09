@@ -1,4 +1,4 @@
-package com.gdt.equipable;
+package com.gdt.equippable;
 
 /**
  * Created by anntagonist on 5/4/17.
