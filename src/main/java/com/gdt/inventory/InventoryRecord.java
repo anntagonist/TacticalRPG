@@ -6,6 +6,10 @@ public class InventoryRecord {
     private final InventoryItem item;
     private final Unit owner;
 
+    public InventoryRecord(InventoryItem item){
+        this(item, null);
+    }
+
     public InventoryRecord(InventoryItem item, Unit owner){
         this.item = item;
         this.owner = owner;

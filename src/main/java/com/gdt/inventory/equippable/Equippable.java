@@ -1,14 +1,12 @@
-package com.gdt.equippable;
+package com.gdt.inventory.equippable;
 
 import com.gdt.inventory.InventoryItem;
 import com.gdt.unit.Unit;
 
 public abstract class Equippable extends InventoryItem{
     //Variables
-    protected boolean isEquipped;
 
     //Concrete Methods
-
 
     //Abstract Methods
     /**
